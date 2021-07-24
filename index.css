@@ -39,6 +39,7 @@ Header
   border-radius: 50%;
   border: 2px solid #cadefc;
   text-align: center;
+  cursor: pointer;
 }
 
 #help p {
@@ -49,6 +50,24 @@ Header
 #help:hover {
   background-color: #cadefc;
   color: #4f3a65;
+}
+
+#github {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
+  margin: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+#github img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 /**************
@@ -93,7 +112,7 @@ Manual
 
 #manual-close {
   margin: 1rem auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border-radius: 50%;
   border: 2px solid #4f3a65;
@@ -102,6 +121,7 @@ Manual
   line-height: 2rem;
   text-align: center;
   z-index: 60;
+  cursor: pointer;
 }
 
 #manual-close:hover {
@@ -203,6 +223,7 @@ Intro scren
   color: #efe8e6;
   border-radius: 20px;
   border: 3px solid #25ced8;
+  cursor: pointer;
 }
 #btn-start:hover {
   color: #25ced8;
@@ -277,6 +298,7 @@ canvas {
   position: absolute;
   z-index: 10;
   top: 10%;
+  cursor: pointer;
 }
 
 #btn-play {
@@ -293,6 +315,7 @@ canvas {
   border-radius: 20px;
   border: 3px solid #25ced8;
   z-index: 2;
+  cursor: pointer;
 }
 
 #btn-play:hover {
